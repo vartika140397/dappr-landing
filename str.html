@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dappr landing</title>
+    <style>     
+    header {
+        width: 100%;
+        height: 100vh;
+    }
+    nav {
+        width: 100%;
+        height: 80px;
+        padding: 0px 70px;
+        background-color: rgb(170, 115, 221);
+        color: white;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        box-shadow: 2px 0px 5px grey;
+        font-size: 20px;
+    }
+    logo {
+        font-weight: bold;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .menu a {
+        text-decoration: none;
+        color:white;
+        padding: 10px 20px;
+    
+    }
+    .menu a:last child {
+        color: white;
+        border-radius: 8px;
+    }
+    .menu input {
+        border-radius: 8px;
+        border-style: double;
+        border-color: white;
+        align-content: center;
+    }
+    .flex-container {
+        width: 400px;
+        height: 280px;
+        margin-top: 50px;
+        color: white;
+        display: flex;
+        flex: inline-block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: black; 
+        justify-content: center;
+        align-items: baseline; 
+        border-radius: 3px;
+    
+    }
+    .flex-container >div {
+        background-color: rgb(218, 196, 236);
+        color: white;
+        margin: 10px;
+        width:800px;
+        height: 3200px;
+    }
+    span {
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        word-spacing: 10px;
+    }
+    .flex-container_list2 {
+    
+        width: 150px;
+        height:50px;
+        display: flex;
+        flex: inline-block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items:center;
+        gap: 8px 5px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;    
+                 
+    }
+    .flex-container_list2 >div {
+        background-color: rgb(206, 171, 235);
+        color: white;
+        width:200px;
+        height: 30px;
+        padding: 40px;
+        border-radius: 10px;
+        border-collapse: collapse;
+        gap: 10px 20px; 
+    }
+    .flex-container_list3 {
+        padding: 60px;
+        width: 1000px;
+        height:400px;
+        display: flex;
+        flex: inline;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+         
+    }
+    .flex-container_list3 >div {
+        background-color: rgb(71, 71, 219);
+        color: white;
+        width:1200px;
+        height: 400px;
+        padding: 40px;
+        border-radius: 10px;
+        border-collapse: collapse; 
+        justify-content:center;
+        align-items: baseline;
+        gap: 10px 20px;
+    } 
+    .flex-container_list4 {
+        padding: 20px;
+        width: 100px;
+        height:200px;
+        display: flex;
+        flex: inline-block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px 30px; 
+        
+    }
+    .flex-container_list4 >div {
+        width:200px;
+        height: 40px;
+        padding: 30px;
+        border-radius: 10px;
+        gap: 20px 25px;
+    }
+    .flex-container_list5 {
+        width: 800px;
+        height:450px;
+        padding: 5px;
+        flex: inline-block;
+        flex-direction: column; 
+        align-items:start;
+        justify-content:center;
+        align-items: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .flex-container_list5 > div {
+        width:570px;
+        height: 450px;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: white;
+        justify-content:space-evenly;
+        align-items:flex-start;
+        flex-direction: column;
+        font-size: 20px;
+
+    }
+    label {
+        color: black;
+        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    button {
+        color: white;
+        padding: 10px;
+        margin-left: 420px;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .img {
+        width: 50px;
+        height: 50px;
+        position: sticky;
+        margin-left: 150px;
+    }
+    .heading {
+        width:100px;
+        height: 100px;
+        margin-left: 80px;
+        background-color: black;
+    }
+    .text {
+        height: 280px;
+        width: 80px;
+       
+    }
+    h2 {
+    margin-left: 20px;
+    } 
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><h2>DaPPr</h2></div>
+            <div class="menu">
+                <a href="#"><b>Home</b></a>
+                <a href="#"><b>About Us</b></a>
+                <a href="#"><b>Information</b></a>
+                <a href="#"><b>More</b></a>
+                <input type="text" id="search" placeholder="Search"></input>
+                <a href="#"><span class="sideMenuButton"
+                               onclick="openNavbar()">
+                               &#9776</span></a>
+                            </div>
+            
+        </nav>
+        <div class="flex-container">
+            <img src="C:\Users\welcome\Downloads\Group 1 (1).png" height="300px" width="400px">
+           <div><span color="white">It's not only the writer who can benefit from this free online tool.
+            If you are a programmer who is working on a....
+            </span></div>
+            <img class="text" src="C:\Users\welcome\Downloads\Frame 2.png">
+        </div><br>
+        <div class="flex-container_list2">
+        <div style="background-color: rgb(144, 144, 223)">Total Question's<br>200,000</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="background-color: blueviolet">Total Answer's<br>105,000</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="background-color: rgb(230, 139, 230)">Participated<br> 10,000</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div style="background-color: black;">Total Passed 6,000
+        <img class="heading" src="C:\Users\welcome\Downloads\Group 12.jpg"></div>       
+    </div><br><br>
+        <div class="flex-container_list3">
+            <div class="flex-container_list4">
+                <div style="background-color: rgb(147, 203, 224);">YOUR INFO</div><br>
+                <div style="border:2px solid white">BOOKMARK</div>
+                <div style="border:2px solid white">SETTINGS</div>          
+                    <div class="flex-container_list5">
+                        <div style="background-color: white;">
+                        <h2 style="color: black;">Your Information</h2><br>
+                        <b><label for="name">Name :</label></b>
+                        <label for="text">Atul Singhal</label><br><br>
+                        <b><label for="Email">Email :</label></b>
+                        <label for="email">atul@gmail.com</label><br><br>
+                        <b><label for="Mobile">MobileNo. :</label></b>
+                        <label for="number">+91 8131424888</label><br><br>
+                        <b><label for="marks">Marks :</label></b>
+                        <label for="number">500.00</label><br><br>
+                        <button style="background-color: black;" type="next">Next-></button>  
+                    </div>
+                    </div>
+                </div>
+    </header>
+    </div>
+</body>
+</html>
